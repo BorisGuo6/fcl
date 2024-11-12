@@ -234,7 +234,7 @@ set(PKG_EXTERNAL_DEPS "ccd eigen3")
 # If OctoMap is not found, manually set the cache variables OCTOMAP_INCLUDE_DIR
 # and OCTOMAP_LIBRARY, OCTOMATH_LIBRARY, and OCTOMAP_VERSION
 #===============================================================================
-option(FCL_WITH_OCTOMAP "OctoMap library support" ON)
+option(FCL_WITH_OCTOMAP "OctoMap library support" OFF)
 set(FCL_HAVE_OCTOMAP 0)
 
 if(FCL_WITH_OCTOMAP)
